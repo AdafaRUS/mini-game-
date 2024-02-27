@@ -1,0 +1,41 @@
+#gamezone{
+    background-color: blue;
+    border: 1px;
+    height: 350px;
+    width: 650px;
+
+}
+
+.character{
+    background-color: coral;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background-image: url(https://101kote.ru/upload/medialibrary/46f/20.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+.val{
+background: linear-gradient(to right, #f857a6, #ff5858);
+width: 170px;
+height: 50px;
+}
+.dog{
+    background-image: url(https://i.pinimg.com/originals/6c/8e/56/6c8e5666bcde85152b1c73f8be8e3ef2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
